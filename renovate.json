@@ -1,0 +1,23 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>major/renovate-config"],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "description": "Track OpenCode, gh, and glab versions pinned as Containerfile ARGs",
+      "managerFilePatterns": ["/(^|/)Containerfile$/"],
+      "matchStrings": [
+        "# renovate: datasource=(?<datasource>\\S+) depName=(?<depName>\\S+)\\s+ARG [A-Z][A-Z0-9_]*_VERSION=(?<currentValue>\\S+)"
+      ],
+      "extractVersionTemplate": "^v?(?<version>.*)$"
+    }
+  ],
+  "packageRules": [
+    {
+      "description": "Keep OpenCode on the V2 line",
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["@opencode/cli"],
+      "allowedVersions": "<3.0.0"
+    }
+  ]
+}
