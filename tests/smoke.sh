@@ -15,3 +15,7 @@ python -c 'import re, subprocess; version = subprocess.check_output(["opencode",
 gh --version
 glab --version
 git --version
+
+command -v mcp-atlassian-jira
+mcp-atlassian-jira --version
+jq -e '.plugins | any(startswith("oh-my-opencode-slim@"))' "$HOME/.config/opencode/opencode.json"

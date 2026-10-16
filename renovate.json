@@ -7,7 +7,7 @@
   "customManagers": [
     {
       "customType": "regex",
-      "description": "Track OpenCode, gh, and glab versions pinned as Containerfile ARGs",
+      "description": "Track OpenCode, gh, glab, mcp-atlassian, and oh-my-opencode-slim versions pinned as Containerfile ARGs",
       "managerFilePatterns": ["/(^|/)Containerfile$/"],
       "matchStrings": [
         "# renovate: datasource=(?<datasource>\\S+) depName=(?<depName>\\S+)\\s+ARG [A-Z][A-Z0-9_]*_VERSION=(?<currentValue>\\S+)"
