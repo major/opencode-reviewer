@@ -25,6 +25,7 @@ RUN dnf -y install \
         git \
         openssh-clients \
         jq \
+        ripgrep \
         python3.11 \
         python-pip-wheel \
         python-setuptools-wheel \

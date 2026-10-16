@@ -15,6 +15,8 @@ python -c 'import re, subprocess; version = subprocess.check_output(["opencode",
 gh --version
 glab --version
 git --version
+jq --version
+rg --version
 
 command -v mcp-atlassian-jira
 mcp-atlassian-jira --version
