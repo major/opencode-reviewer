@@ -9,7 +9,7 @@ ARG GLAB_VERSION=1.124.0
 # renovate: datasource=pypi depName=mcp-atlassian
 ARG MCP_ATLASSIAN_VERSION=0.23.1
 # renovate: datasource=npm depName=oh-my-opencode-slim
-ARG OH_MY_OPENCODE_SLIM_VERSION=3.0.5
+ARG OH_MY_OPENCODE_SLIM_VERSION=3.0.6
 
 ENV SHELL=/bin/bash \
     PATH=/home/opencode/.venv/bin:/home/opencode/.opencode/bin:${PATH}
