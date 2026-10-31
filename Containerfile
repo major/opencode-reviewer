@@ -5,7 +5,7 @@ ARG OPENCODE_VERSION=2.1.4
 # renovate: datasource=github-releases depName=cli/cli
 ARG GH_VERSION=2.102.0
 # renovate: datasource=gitlab-releases depName=gitlab-org/cli
-ARG GLAB_VERSION=1.123.0
+ARG GLAB_VERSION=1.124.0
 # renovate: datasource=pypi depName=mcp-atlassian
 ARG MCP_ATLASSIAN_VERSION=0.23.1
 # renovate: datasource=npm depName=oh-my-opencode-slim
