@@ -18,10 +18,6 @@ git --version
 jq --version
 rg --version
 
-command -v mcp-atlassian-jira
-mcp-atlassian-jira --version
-jq -e '.plugins | any(startswith("oh-my-opencode-slim@"))' "$HOME/.config/opencode/opencode.json"
-
 # mcp_tools prints the tool names a stdio MCP server lists after a handshake.
 # The server needs no credentials to list tools. The sleep keeps stdin open
 # long enough for the reply, then closing stdin stops the server.
