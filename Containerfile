@@ -5,7 +5,7 @@ ARG OPENCODE_VERSION=2.1.4
 # renovate: datasource=github-releases depName=cli/cli
 ARG GH_VERSION=2.103.2
 # renovate: datasource=gitlab-releases depName=gitlab-org/cli
-ARG GLAB_VERSION=1.124.0
+ARG GLAB_VERSION=1.126.0
 # renovate: datasource=pypi depName=uv
 ARG UV_VERSION=0.13.7
 # renovate: datasource=git-refs depName=gitlab-mcp packageName=https://github.com/major/gitlab-mcp branch=main
