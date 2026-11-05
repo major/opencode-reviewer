@@ -3,7 +3,7 @@ FROM registry.fedoraproject.org/fedora:44@sha256:b414c09be79dd1f32529b55b096b6bb
 # renovate: datasource=npm depName=@opencode/cli
 ARG OPENCODE_VERSION=2.1.4
 # renovate: datasource=github-releases depName=cli/cli
-ARG GH_VERSION=2.103.2
+ARG GH_VERSION=2.103.3
 # renovate: datasource=gitlab-releases depName=gitlab-org/cli
 ARG GLAB_VERSION=1.124.0
 # renovate: datasource=pypi depName=uv
