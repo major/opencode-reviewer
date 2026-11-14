@@ -9,7 +9,7 @@ ARG GLAB_VERSION=1.128.0
 # renovate: datasource=pypi depName=uv
 ARG UV_VERSION=0.13.7
 # renovate: datasource=git-refs depName=gitlab-mcp packageName=https://github.com/major/gitlab-mcp branch=main
-ARG GITLAB_MCP_REF=268038f9bb6ab1ddd7dc4adb5009560e28b91d73
+ARG GITLAB_MCP_REF=e77edad4849f3ae89e6fbc0272fa9a38313a0295
 # renovate: datasource=git-refs depName=jira-mcp packageName=https://github.com/major/jira-mcp branch=main
 ARG JIRA_MCP_REF=a37a8bb2965d9fe48a2068b0d2660349146d7032
 
