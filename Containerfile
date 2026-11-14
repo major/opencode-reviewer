@@ -11,7 +11,7 @@ ARG UV_VERSION=0.13.7
 # renovate: datasource=git-refs depName=gitlab-mcp packageName=https://github.com/major/gitlab-mcp branch=main
 ARG GITLAB_MCP_REF=268038f9bb6ab1ddd7dc4adb5009560e28b91d73
 # renovate: datasource=git-refs depName=jira-mcp packageName=https://github.com/major/jira-mcp branch=main
-ARG JIRA_MCP_REF=a37a8bb2965d9fe48a2068b0d2660349146d7032
+ARG JIRA_MCP_REF=d46ac6ae25d0aad42833c3e0ff218fde70e9e0be
 
 ENV SHELL=/bin/bash \
     PATH=/home/opencode/.venv/bin:/home/opencode/.opencode/bin:${PATH}
