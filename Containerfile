@@ -1,4 +1,4 @@
-FROM registry.fedoraproject.org/fedora:44@sha256:15bca96361db60e17c52df60efca658f02d7a8df13e6ceaabb47e9a547ec3f5e
+FROM registry.fedoraproject.org/fedora:44@sha256:4f9a6c2f1eef83984ab0a2365fa99b3c080b0b028a02884c42f74ef8cb39e2fc
 
 # renovate: datasource=npm depName=@opencode/cli
 ARG OPENCODE_VERSION=2.2.6
