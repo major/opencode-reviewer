@@ -1,7 +1,7 @@
 FROM registry.fedoraproject.org/fedora:44@sha256:c1e457a3c398b0d7b12d060ad86ad52bab714a17faecc907deb1262fb2b72d98
 
 # renovate: datasource=npm depName=@opencode/cli
-ARG OPENCODE_VERSION=2.3.0
+ARG OPENCODE_VERSION=2.3.2
 # renovate: datasource=github-releases depName=cli/cli
 ARG GH_VERSION=2.104.0
 # renovate: datasource=gitlab-releases depName=gitlab-org/cli
